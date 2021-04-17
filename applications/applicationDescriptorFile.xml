@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<applications xmlns="http://documentation.bonitasoft.com/application-xml-schema/1.0">
+    <application token="solicitud-cursos" version="1.0" profile="User" homePage="solicitud-cursos" state="ACTIVATED" layout="custompage_layoutBonita" theme="custompage_bootstrapdefaulttheme">
+        <displayName>Aplicación de solicitudes de cursos</displayName>
+        <applicationPages>
+            <applicationPage customPage="custompage_SeguimientoSolicitudes" token="solicitud-cursos"/>
+        </applicationPages>
+        <applicationMenus>
+            <applicationMenu applicationPage="solicitud-cursos">
+                <displayName>Seguimiento de las solicitudes de cursos</displayName>
+            </applicationMenu>
+        </applicationMenus>
+    </application>
+</applications>
